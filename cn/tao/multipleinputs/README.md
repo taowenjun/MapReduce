@@ -9,7 +9,10 @@
 对于Reducer来说，是聚合后的map输出，并不知道是由不同的mapper产生的。
 
 要处理的文件
+
 trade_info1.txt
+
+
 zhangsan@163.com    6000    0   2014-02-20
 lisi@163.com    2000    0   2014-02-20
 lisi@163.com    0   100 2014-02-20
@@ -18,6 +21,7 @@ wangwu@126.com  9000    0   2014-02-20
 wangwu@126.com  0   200     2014-02-20
 
 trade_info2txt
+
 zhangsan@163.com,6000,0,2014-02-20
 lisi@163.com,2000,0,2014-02-20
 lisi@163.com,0,100,2014-02-20
@@ -27,6 +31,8 @@ wangwu@126.com,0,200,2014-02-20
 
 代码： 
 处理多个不同输入的重要代码
+
+
 MultipleInputs.addInputPath(job, new Path("hdfs://10.108.21.2:9000/multimapper/data/info1/"), TextInputFormat.class,SumStepByToolMapper.class);
 MultipleInputs.addInputPath(job, new Path("hdfs://10.108.21.2:9000/multimapper/data/info2/"), TextInputFormat.class,SumStepByToolWithCommaMapper.class);
 		
