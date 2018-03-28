@@ -8,7 +8,7 @@ import org.apache.hadoop.io.Writable;
 
 /**
  *@author  Tao wenjun
- *封装消息的类
+ *灏佽淇℃伅鐨勭被
  */
 
 public class InfoBean implements Writable{
