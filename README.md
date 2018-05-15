@@ -1,4 +1,4 @@
-平时写的MapReduce
+平时写的MapReduce程序
 
 各个目录的情况如下：
 
