@@ -22,6 +22,8 @@ provinceflow：Reducer按类输出结果
 
 secondarysort：二次排序
 
+topn:排名前n
+
 usercf：基于用户的协同过滤
 
 wholefiles：整个文件而不是一个数据块作为一个输入块
