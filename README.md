@@ -1,4 +1,4 @@
-平时写的MapReduce程序
+平时写的MapReduce程序，Hadoop也自带好多MR案例程序
 
 各个目录的情况如下：
 
